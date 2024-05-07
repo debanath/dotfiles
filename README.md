@@ -22,7 +22,7 @@ git clone --bare https://github.com/sameemul-haque/dotfiles.git $HOME/.dotfiles
 ```
 - Install required packages
 ```
-pacman -Syu --needed hyprland hyprpaper waybar sddm alacritty dunst fastfetch ttf-firacode-nerd ttf-jetbrains-mono-nerd pamixer
+pacman -Syu --needed hyprland hyprpaper waybar sddm alacritty dunst fastfetch ttf-firacode-nerd ttf-jetbrains-mono-nerd pamixer bash-completion cliphist
 
 yay -S --needed swaylock-effects-git rofi-lbonn-wayland-git sddm-sugar-candy-git brillo
 ```

@@ -109,5 +109,5 @@ export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
 ###-------- gnupg -------###
 export GPG_TTY=$(tty)
 # google-cloud-cli gcloud
-source /etc/profile.d/google-cloud-cli.sh
+# source /etc/profile.d/google-cloud-cli.sh
 

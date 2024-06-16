@@ -7,7 +7,10 @@
 [![Hyprland](https://img.shields.io/badge/Hyprland-abd6fd?style=for-the-badge "Hyprland - A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks")](https://hyprland.org/)
 [![Waybar](https://img.shields.io/badge/Waybar-cdd6f4?style=for-the-badge "Waybar - Highly customizable Wayland bar for Sway and Wlroots based compositors")](https://github.com/Alexays/Waybar)
 [![Bash](https://img.shields.io/badge/Bash-f2cdcd?style=for-the-badge "Bourne Again SHell")](https://www.gnu.org/software/bash/manual/bash.html)
+<!--
 [![Alacritty](https://img.shields.io/badge/Alacritty-cba6f7?style=for-the-badge "Alacritty - A fast, cross-platform, OpenGL terminal emulator")](https://github.com/alacritty/alacritty)
+-->
+[![Konsole](https://img.shields.io/badge/Konsole-89b4fa?style=for-the-badge "Terminal emulator by KDE")](https://github.com/KDE/konsole)
 [![Rofi](https://img.shields.io/badge/Rofi-fab387?style=for-the-badge "Rofi- A window switcher, application launcher and dmenu replacement")](https://github.com/lbonn/rofi)
 [![Cliphist](https://img.shields.io/badge/Cliphist-cdd6f4?style=for-the-badge "Cliphist - Wayland clipboard manager")](https://github.com/sentriz/cliphist)
 [![Zathura](https://img.shields.io/badge/Zathura-94e2d5?style=for-the-badge "Zathura is a highly customizable and functional document viewer")](https://github.com/pwmt/zathura)
@@ -23,7 +26,7 @@ git clone --bare https://github.com/sameemul-haque/dotfiles.git $HOME/.dotfiles
 ```
 - Install required packages
 ```
-pacman -Syu --needed hyprland hyprpaper waybar sddm alacritty dunst fastfetch ttf-firacode-nerd ttf-jetbrains-mono-nerd pamixer bash-completion cliphist
+pacman -Syu --needed hyprland hyprpaper waybar sddm konsole dunst fastfetch ttf-firacode-nerd ttf-jetbrains-mono-nerd pamixer bash-completion cliphist
 
 yay -S --needed swaylock-effects-git rofi-lbonn-wayland-git sddm-sugar-candy-git brillo
 ```
@@ -54,8 +57,8 @@ cp -r ~/.sddm-themes/Sugar-Candy/* /usr/share/sddm/themes/sugar-candy/
 ![preview4](https://github.com/sameemul-haque/dotfiles/assets/110324374/6614f84c-2bbe-42eb-83b4-a47d263fc9a3)
 
 ## Dotfiles are available for the following:
-| HYPRLAND | WAYBAR | ROFI | DUNST | SWAYLOCK | SDDM | ZATHURA | ALACRITTY | BASH | NEOVIM | FIREFOX | FASTFETCH |
-|---|---|---|---|---|---|---|---|---|---|---|---|
+| HYPRLAND | WAYBAR | ROFI | DUNST | SWAYLOCK | SDDM | ZATHURA | ALACRITTY | KONSOLE | BASH | NEOVIM | FIREFOX | FASTFETCH |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
 
 ## Credits
 [![credits](https://img.shields.io/badge/rayh4444n-FF4500?style=for-the-badge&logo=reddit&logoColor=ffffff "Credits to rayh4444n")](https://www.reddit.com/r/unixporn/comments/zos11o/comment/k24i61c/)

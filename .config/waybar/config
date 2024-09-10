@@ -14,7 +14,7 @@
         "tray",
         "memory",
         "network",
-        "pulseaudio",
+        "wireplumber",
         "battery",
         "custom/power"
     ],
@@ -78,7 +78,7 @@
 	"interval": 5,
 	"nospacing": 1,
     },
-    "pulseaudio": {
+    "wireplumber": {
         "format": "{icon}",
         "format-bluetooth": "󰂰",
         "nospacing": 1,

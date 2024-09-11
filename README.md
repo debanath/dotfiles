@@ -6,6 +6,7 @@
 
 [![Hyprland](https://img.shields.io/badge/Hyprland-abd6fd?style=for-the-badge "Hyprland - A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks")](https://hyprland.org/)
 [![Waybar](https://img.shields.io/badge/Waybar-cdd6f4?style=for-the-badge "Waybar - Highly customizable Wayland bar for Sway and Wlroots based compositors")](https://github.com/Alexays/Waybar)
+[![Hyprlock](https://img.shields.io/badge/Hyprlock-89dceb?style=for-the-badge "Hyprlock - Hyprland's GPU-accelerated screen locking utility")](https://github.com/hyprwm/hyprlock)
 [![Bash](https://img.shields.io/badge/Bash-f2cdcd?style=for-the-badge "Bourne Again SHell")](https://www.gnu.org/software/bash/manual/bash.html)
 [![Alacritty](https://img.shields.io/badge/Alacritty-cba6f7?style=for-the-badge "Alacritty - A fast, cross-platform, OpenGL terminal emulator")](https://github.com/alacritty/alacritty)
 [![Konsole](https://img.shields.io/badge/Konsole-179af3?style=for-the-badge "Terminal emulator by KDE")](https://github.com/KDE/konsole)
@@ -24,7 +25,7 @@ git clone --bare https://github.com/sameemul-haque/dotfiles.git $HOME/.dotfiles
 ```
 - Install required packages
 ```
-pacman -Syu --needed hyprland hyprpaper waybar sddm konsole dunst libnotify fastfetch ttf-firacode-nerd ttf-jetbrains-mono-nerd pamixer bash-completion cliphist slurp grim github-cli libmtp gvfs-mtp android-tools ntfs-3g noto-fonts-emoji
+pacman -Syu --needed hyprland hyprpaper waybar sddm hyprlock konsole dunst libnotify fastfetch ttf-firacode-nerd ttf-jetbrains-mono-nerd pamixer bash-completion cliphist slurp grim github-cli libmtp gvfs-mtp android-tools ntfs-3g noto-fonts-emoji
 
 yay -S --needed swaylock-effects-git rofi-lbonn-wayland-git rofi-emoji-git sddm-sugar-candy-git brillo hyprpicker-git
 ```
@@ -48,14 +49,32 @@ cp -r ~/.sddm-themes/Sugar-Candy/* /usr/share/sddm/themes/sugar-candy/
 [preview](https://github.com/sameemul-haque/dotfiles/assets/110324374/3f3ad231-ba5c-42fc-9d01-6466e4550158 "dotfiles preview")
 
 <!-- ![preview1-old-neofetch](https://github.com/sameemul-haque/dotfiles/assets/110324374/0250fcdc-dd46-4e53-9855-6630b02950fe) -->
-![preview1](https://github.com/sameemul-haque/dotfiles/assets/110324374/2212607f-9b29-4e76-bac0-4bdc0ac06bbb)
-![preview2](https://github.com/sameemul-haque/dotfiles/assets/110324374/86560ae3-5113-46f2-823b-60e334c67b14)
-![preview3](https://github.com/sameemul-haque/dotfiles/assets/110324374/4f7f18aa-4337-4f68-871b-42c3986c0379)
-![preview4](https://github.com/sameemul-haque/dotfiles/assets/110324374/6614f84c-2bbe-42eb-83b4-a47d263fc9a3)
+
+| ![preview1](https://github.com/sameemul-haque/dotfiles/assets/110324374/2212607f-9b29-4e76-bac0-4bdc0ac06bbb) |
+| :--------------------------------------------------------------------------------------------------------: |
+| _Hyprland + Waybar + Alacritty + Dunst_ |
+
+| ![preview2](https://github.com/sameemul-haque/dotfiles/assets/110324374/86560ae3-5113-46f2-823b-60e334c67b14) |
+| :--------------------------------------------------------------------------------------------------------: |
+| _Firefox + Rofi + Nemo_ |
+
+| ![hyprlock-preview](https://github.com/user-attachments/assets/5e6a9ee5-98c2-4e37-b9b8-64b8960f2da2) |
+| :--------------------------------------------------------------------------------------------------------: |
+| _Hyprlock_ |
+
+| ![swaylock-preview](https://github.com/sameemul-haque/dotfiles/assets/110324374/4f7f18aa-4337-4f68-871b-42c3986c0379) |
+| :--------------------------------------------------------------------------------------------------------: |
+| _Swaylock_ |
+
+| ![sddm-preview](https://github.com/sameemul-haque/dotfiles/assets/110324374/6614f84c-2bbe-42eb-83b4-a47d263fc9a3) |
+| :--------------------------------------------------------------------------------------------------------: |
+| _SDDM_ |
+
+
 
 ## Dotfiles are available for the following:
-| HYPRLAND | WAYBAR | ROFI | DUNST | SWAYLOCK | SDDM | ZATHURA | ALACRITTY | KONSOLE | BASH | NEOVIM | FIREFOX | FASTFETCH |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| HYPRLAND | WAYBAR | ROFI | DUNST | HYPRLOCK | SWAYLOCK | SDDM | ZATHURA | ALACRITTY | KONSOLE | BASH | NEOVIM | FIREFOX | FASTFETCH |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 
 ## Credits
 [![credits](https://img.shields.io/badge/rayh4444n-FF4500?style=for-the-badge&logo=reddit&logoColor=ffffff "Credits to rayh4444n")](https://www.reddit.com/r/unixporn/comments/zos11o/comment/k24i61c/)
